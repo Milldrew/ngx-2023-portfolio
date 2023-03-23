@@ -1,3 +1,4 @@
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,6 +9,7 @@ import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { ExperienceComponent } from './sections/experience/experience.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactMeComponent } from './sections/contact-me/contact-me.component';
+import { AppBarComponent } from './app-bar/app-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,16 @@ import { ContactMeComponent } from './sections/contact-me/contact-me.component';
     AboutMeComponent,
     ExperienceComponent,
     ProjectsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    AppBarComponent,
   ],
   imports: [
+    MatToolbarModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
