@@ -1,3 +1,4 @@
+import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -21,6 +22,7 @@ import { AppBarComponent } from './app-bar/app-bar.component';
     AppBarComponent,
   ],
   imports: [
+    MatTabsModule,
     MatToolbarModule,
     BrowserModule,
     AppRoutingModule,
