@@ -3,4 +3,9 @@ To-dos
 ──────────────────────────────
 Retrieve about me from github
 Retrieve projects from github
-Add contact me infor that goes to linkedin
+Add contact me info that goes to linkedin
+Add medium blog with medium api
+Use google sheets api to persist data.
+  • Count page visits.
+  • Create a guest book.
+───────────────────────────────
