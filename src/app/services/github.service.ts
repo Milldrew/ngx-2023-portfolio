@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { filteredGithubProject } from './gh-project.type';
 
 @Injectable({
   providedIn: 'root',
@@ -6,14 +7,18 @@ import { Injectable } from '@angular/core';
 export class GithubService {
   constructor() {}
 
-  githubProjects: GithubProject[];
+  githubProjects: filteredGithubProject[];
 
   getAllprojects() {
     this.githubProjects = [
       {
+        id: 1,
         name: 'Project 1',
-        description: 'This is project 1',
-        url: '',
+        description: 'Project 1 description',
+        url: 'https://github.com',
+        homepage: 'https://github.com',
+        isPrivate: false,
+        hasPages: true,
       },
     ];
   }
