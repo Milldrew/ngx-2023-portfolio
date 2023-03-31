@@ -6,10 +6,10 @@ import { Injectable } from '@angular/core';
 export class GithubService {
   constructor() {}
 
-  githubPorjects: GithubProject[];
+  githubProjects: GithubProject[];
 
   getAllprojects() {
-    return [
+    this.githubProjects = [
       {
         name: 'Project 1',
         description: 'This is project 1',
