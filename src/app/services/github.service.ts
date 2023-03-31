@@ -20,6 +20,24 @@ export class GithubService {
         isPrivate: false,
         hasPages: true,
       },
+      {
+        id: 1,
+        name: 'Project 1',
+        description: 'Project 1 description',
+        url: 'https://github.com',
+        homepage: 'https://github.com',
+        isPrivate: false,
+        hasPages: true,
+      },
+      {
+        id: 1,
+        name: 'Project 1',
+        description: 'Project 1 description',
+        url: 'https://github.com',
+        homepage: 'https://github.com',
+        isPrivate: false,
+        hasPages: true,
+      },
     ];
   }
 }
