@@ -6,9 +6,7 @@ import { filteredGithubProject } from './gh-project.type';
 })
 export class GithubService {
   constructor() {}
-
   githubProjects: filteredGithubProject[];
-
   getAllprojects() {
     this.githubProjects = [
       {
