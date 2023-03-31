@@ -41,9 +41,3 @@ export class GithubService {
     ];
   }
 }
-
-type GithubProject = {
-  name: string;
-  description: string;
-  url: string;
-};
