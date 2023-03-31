@@ -11,6 +11,8 @@ import { ExperienceComponent } from './sections/experience/experience.component'
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactMeComponent } from './sections/contact-me/contact-me.component';
 import { AppBarComponent } from './app-bar/app-bar.component';
+import { ChartAreaComponent } from './chart-area/chart-area.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { AppBarComponent } from './app-bar/app-bar.component';
     ProjectsComponent,
     ContactMeComponent,
     AppBarComponent,
+    ChartAreaComponent,
+    TabsComponent,
   ],
   imports: [
     MatTabsModule,
