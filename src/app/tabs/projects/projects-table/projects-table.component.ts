@@ -7,5 +7,7 @@ import { GithubService } from 'src/app/services/github.service';
   styleUrls: ['./projects-table.component.scss'],
 })
 export class ProjectsTableComponent {
-  constructor(public githubService: GithubService) {}
+  constructor(public githubService: GithubService) {
+    this.githubService.githubProjects;
+  }
 }
