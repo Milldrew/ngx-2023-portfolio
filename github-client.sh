@@ -4,4 +4,4 @@
 
 curl --request GET \
 --url "https://api.github.com/users/milldrew/repos" \
---header "Authorization: Bearer "$GH_PORTFOLIO  > payload.json
+--header "Authorization: Bearer "$GH_PORTFOLIO  > payload.ts
