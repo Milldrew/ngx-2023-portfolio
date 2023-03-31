@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 payload.json
 payload.ts
+*vim*
